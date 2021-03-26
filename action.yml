@@ -1,4 +1,4 @@
-name: Gitleaks
+name: Gitleaks Scan
 description: "Run Gitleaks"
 branding:
   color: red
