@@ -9,7 +9,7 @@ inputs:
     description: "Look behind depth"
 runs:
   using: "docker"
-  image: "docker://eu.gcr.io/mettle-bank/zricethezav/gitleaks:v7.2.0"
+  image: "docker://eu.gcr.io/mettle-bank/zricethezav/gitleaks:v7.5.0"
   args:
     - gitleaks
     - --depth=${{ inputs.depth }}
